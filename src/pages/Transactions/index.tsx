@@ -4,6 +4,7 @@ import { Summary } from "../../components/Summary";
 import { SearchForm } from "./components/SearchForm";
 import { PriceHighLight, TransactionContainer, TransactionTable } from "./styles";
 import { TransactionsContext } from "../../contexts/TransactionsContext";
+import { dateFormatter, priceFormatter } from "../../utils/formatter";
 
 export function Transactions() {
     const { transactions } = useContext(TransactionsContext)
@@ -28,14 +29,21 @@ export function Transactions() {
                                         </td>
                                         <td>
                                             <PriceHighLight variant={transaction.type}>
-                                                {transaction.price}
+                                                {
+                                                    transaction.type === 'outcome' && ' - '
+                                                }
+                                                {
+                                                    priceFormatter.format(transaction.price)
+                                                }
                                             </PriceHighLight>
                                         </td>
                                         <td>
                                             {transaction.category}
                                         </td>
                                         <td>
-                                            {transaction.createAt}
+                                            {
+                                                dateFormatter.format(new Date(transaction.createAt))
+                                            }
                                         </td>
                                     </tr>
                                 )
