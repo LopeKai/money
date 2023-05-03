@@ -11,12 +11,19 @@
         },
         {
             "id": 2,
-            "description" : "Venda de sapatos",
-            "type" : "income",
-            "category": "Venda",
-            "price": 14000,
-            "createAt": "2023-05-02T20:26:34.330Z"
-
+            "description" : "Pizza",
+            "type" : "outcome",
+            "category": "Alimentação",
+            "price": 50,
+            "createAt": "2023-05-02T20:30:34.330Z"
+        },
+        {
+            "id": 3,
+            "description" : "Mc Donalds",
+            "type" : "outcome",
+            "category": "Alimentação",
+            "price": 80,
+            "createAt": "2023-05-02T20:30:34.330Z"
         }
     ]
 }
