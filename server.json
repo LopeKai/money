@@ -1,29 +1,60 @@
 {
-    "transactions" : [
-        {
-            "id": 1,
-            "description" : "Desenvolvimento de sistema",
-            "type" : "income",
-            "category": "Venda",
-            "price": 14000,
-            "createAt": "2023-05-02T20:26:34.330Z"
-
-        },
-        {
-            "id": 2,
-            "description" : "Pizza",
-            "type" : "outcome",
-            "category": "Alimentação",
-            "price": 50,
-            "createAt": "2023-05-02T20:30:34.330Z"
-        },
-        {
-            "id": 3,
-            "description" : "Mc Donalds",
-            "type" : "outcome",
-            "category": "Alimentação",
-            "price": 80,
-            "createAt": "2023-05-02T20:30:34.330Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de sistema",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createAt": "2023-05-02T20:26:34.330Z"
+    },
+    {
+      "id": 2,
+      "description": "Pizza",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createAt": "2023-05-02T20:30:34.330Z"
+    },
+    {
+      "id": 3,
+      "description": "Mc Donalds",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 80,
+      "createAt": "2023-05-02T20:30:34.330Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 20000,
+      "category": "Venda",
+      "type": "income",
+      "createAt": "2023-05-04T19:08:17.899Z",
+      "id": 4
+    },
+    {
+      "description": "Jantar",
+      "price": 100,
+      "category": "Restaurante",
+      "type": "outcome",
+      "createAt": "2023-05-04T19:11:40.854Z",
+      "id": 5
+    },
+    {
+      "description": "Pastel",
+      "price": 12,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createAt": "2023-05-04T19:12:30.544Z",
+      "id": 6
+    },
+    {
+      "description": "Coxinha ",
+      "price": 5,
+      "category": "Alimentaçao",
+      "type": "outcome",
+      "createAt": "2023-05-04T19:26:33.329Z",
+      "id": 7
+    }
+  ]
 }
